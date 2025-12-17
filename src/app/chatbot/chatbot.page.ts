@@ -43,7 +43,7 @@ export class ChatbotPage implements OnInit {
   userMessage: string = '';
   isLoading: boolean = false;
 
-  private readonly API_KEY = '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';
+  private readonly API_KEY = '';
   private readonly MODEL = 'google/gemini-2.0-flash-exp:free';
   private readonly API_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
 
